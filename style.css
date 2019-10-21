@@ -16,9 +16,9 @@ main {
   background: white;
   margin-top: 60px;
   padding: 40px;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center; */
+  align-items: center;
 }
 
 p {
@@ -61,15 +61,21 @@ button:hover {
 .sec-desc {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
+}
+
+.flexy-above {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* -------------------------------------------
 * media query
 * -------------------------------------------- */
 
-@media (min-width: 687px) {
+@media (min-width: 1100px) {
   main {
     display: flex;
     flex-direction: row-reverse;
@@ -85,8 +91,11 @@ button:hover {
     flex-direction: column;
     justify-content: center;
   }
-  .flexy-below {
-    /* flex-shrink: 0;
-    flex-basis: 40%; */
-  }
+}
+
+/* @media (min-width: 1220px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    } */
 }
