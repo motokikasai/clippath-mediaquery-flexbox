@@ -36,6 +36,11 @@ h1 {
 }
 
 img {
+  width: 100%;
+}
+
+.sec-img {
+  margin: 60px;
 }
 
 .image-clip {
@@ -62,6 +67,7 @@ button {
 
 button:hover {
   background: rgb(100, 0, 67);
+  transform: scale(1.1);
 }
 
 .sec-desc {
@@ -76,13 +82,14 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /* -------------------------------------------
 * media query
 * -------------------------------------------- */
 
-@media (min-width: 1220px) {
+@media (min-width: 900px) {
   main {
     display: flex;
     flex-direction: row-reverse;
@@ -98,6 +105,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    text-align: left;
   }
 }
 
